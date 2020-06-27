@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+svg{
+    margin: 5px;
+
+}
+
+/*ul{
+    padding: 15px;
+    margin-left: 20px;
+}*/
+
+.conteiner{
+    width: 500px;
+    height: 850px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.texto_usuario{
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+#menu{
+    text-align: center;
+}
+
+.btn-custom {
+	border-radius: 20px;
+}
+
+#texto_usuario{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+    font-style: oblique;
+    border:2px solid #836FFF;
+}
+
+.itens_Tarefa{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ; ;
+    font-style: oblique;
+    font-size: 1em;
+    list-style: none;
+    color:#fff;
+    height: 50px;
+    border-radius: 8px;
+    border-left: 1px solid;
+    transition: 75ms;    
+    background-color: #836FFF;
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 10px;
+    padding: 2px;
+    
+}
