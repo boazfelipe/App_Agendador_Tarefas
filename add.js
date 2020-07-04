@@ -5,6 +5,7 @@ function adicionar_Tarefa(){
     var tarefas = document.getElementById("lista_geral");
     var nova_Tarefa = document.createElement("li");
 
+    //Validando se existe tarefas para inclusão
     if(texto.value == ""){
         alert("Insira uma tarefa por favor");
         return;
@@ -15,7 +16,6 @@ function adicionar_Tarefa(){
     tarefas.appendChild(nova_Tarefa);
     texto.value = "";
     texto.focus();
-
    
 
     //Criando ID para o elemento criado, para usa-lo na função remover
